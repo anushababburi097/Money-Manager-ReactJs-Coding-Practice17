@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.transaction-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+delete-icon {
+  height: 33px;
+}

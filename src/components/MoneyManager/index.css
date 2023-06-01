@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffff;
+  height: 100vh;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.welcome-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 110px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 13px;
+}
+@media screen and (min-width: 768px) {
+  .welcome-container {
+    width: 100%;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 21px;
+  }
+}
+.span {
+  color: #0b69ff;
+  font-family: 'Roboto';
+}
+
+.transaction-item-container {
+  display: flex;
+  /* flex-direction: column; */
+}
+@media screen and (max-width: 568px) {
+  .transaction-item-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.transaction-container {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  min-height: 55vh;
+  width: 40%;
+  padding: 30px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.sub-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7e858e;
+}
+.label {
+  margin-bottom: 12px;
+  /* margin-top: 12px; */
+}
+.input {
+  margin-bottom: 12px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    width: 199px;
+  }
+  .sub-heading {
+    font-size: 22px;
+  }
+}
+.add-btn {
+  background-color: #0b69ff;
+  width: 47px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  min-height: 55vh;
+  width: 50%;
+  padding: 30px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.history-item-container {
+  display: flex;
+  flex-direction: column;
+}
+.history-content {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  justify-content: space-around;
+}
