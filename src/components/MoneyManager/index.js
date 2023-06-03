@@ -41,7 +41,7 @@ class MoneyManager extends Component {
     console.log(`Income: ${income}`)
     console.log(`Expenses: ${expenses}`)
     console.log(`Difference/Balance: ${income - expenses}`)
-    if (typeId === 'income') {
+    if (typeId === 'Income') {
       this.setState(prevState => ({
         transactionBalanceList: [
           ...prevState.transactionBalanceList,
